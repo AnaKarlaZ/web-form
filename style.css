@@ -1,0 +1,98 @@
+body {
+    background: -webkit-gradient(linear, left top, right top, from(#a5bcfc), to(#fd8ab6)) no-repeat;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+  background-color: #f35c96;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+a:hover, a:active {
+  background-color: #fc297a;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(97, 96, 96); 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #a5bcfc; 
+    border-radius: 50px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #85a4fa; 
+  }
+
+  #nav{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+img{
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 10px;
+}
+
+p,h2,h3,h4{
+  text-align: center;
+}
+
+dt{
+  font-weight: bold;
+}
+
+.main{
+  overflow: hidden;
+  float: left;
+  width: 36%;
+  height: 33%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  color:rgb(0, 0, 0);
+  border: 1px solid white;
+}
+
+.mid{
+  overflow: hidden;
+  float: left;
+  width: 36%;
+  height: 33%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  color:rgb(0, 0, 0);
+  border: 1px solid white;
+}
+
+.aside{
+  overflow: hidden;
+  float: left;
+  width: 36%;
+  height: 33%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  color:rgb(0, 0, 0);
+  border: 1px solid white;
+}
